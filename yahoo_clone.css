@@ -1,0 +1,190 @@
+html,body{
+  height: 100%;
+
+}
+
+#container{
+  min-height: 150%;
+  min-width: 100%;
+  display: block;
+}
+#top {
+height:14%;
+width:100%;
+background-color:#fff;
+margin:0;
+}
+#top a{
+  text-decoration: none;
+  font-family: Yahoo Sans,Helvetica Neue,Helvetica,Arial;
+  font-size: 13px;
+  font-weight: 400;
+  color:#188fff;
+  position: absolute;
+  top:40px;
+  right:45px;
+}
+
+#bottom {
+height:150%;
+width:105%;
+background-color:#f3f7f9;
+margin:0;
+}
+
+#logo{
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#login_box{
+  height : 600px;
+  width : 355px;
+  position: absolute;
+  right: 100px;
+  bottom:-135;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1),
+              0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+#logo2{
+  position: absolute;
+  top:110px;
+  right: 225px;
+}
+
+div>p{
+  height: 1px;
+  font-size: 13px;
+  text-align: center;
+  font-family: Yahoo Sans,Helvetica Neue,Helvetica,Arial;
+}
+.sign{
+  display: block;
+  font-family: Yahoo Sans,Helvetica Neue,Helvetica,Arial;
+  font-size: 23px;
+  text-align: center;
+  padding-top: 30px;
+}
+p{
+  display: block;
+  font-family: Yahoo Sans,Helvetica Neue,Helvetica,Arial;
+  text-align: center;
+}
+
+#username{
+  position: absolute;
+  top:200px;
+  font-size: 20px;
+  right: -105.583;
+}
+
+.signin{
+  position: absolute;
+  top: 250px;
+  padding: 15px 140px 15px 140px;
+  border-radius :25px;
+  background-color: #188fff;
+  color: #fff;
+  right: -105.567px;
+}
+
+
+
+.lname {
+  position: absolute;
+  bottom: 17px;
+  font-family: Yahoo Sans,Helvetica Neue,Helvetica,Arial ;
+  color: #188fff;
+  font-size: 16px;
+  bottom:-185;
+  left: -60px;
+  text-decoration: none;
+}
+
+#forgot{
+  position: absolute;
+  color: #188fff;
+  bottom:-185;
+  right: -112px;
+  left: 117px;
+  text-decoration: none;
+  font-family: Yahoo Sans,Helvetica Neue,Helvetica,Arial ;
+  font-size: 16px;
+}
+
+.create_acc{
+  position: absolute;
+  top: 385px;
+  bottom: -270px;
+  padding: 0px 90px 0px 90px;
+  border-radius :25px;
+  border-color: #188fff;
+  color: #fff;
+  right: -105.567px;
+  color: #188fff;
+  background-color: #fff;
+  border-width: thin;
+  font-size: 16px;
+  margin-bottom: 5px;
+
+}
+
+.continue{
+  position:absolute;
+  right: -105.567px;
+  left: -56.217;
+  top: 450px;
+  bottom: -260px;
+}
+
+.google{
+  position: absolute;
+  margin-bottom: -88px;
+  margin-top: 100px;
+  padding-left: 111px;
+  padding-right: 111px;
+  right: -85.383px;
+  left: -40;
+  top: 395px;
+  bottom: -290px;
+  border-radius: 25px;
+  border-color: black;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-width:thin;
+}
+
+.google a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.google:hover{
+  border-color:  #188fff;
+}
+.signin:hover{
+  background-color:#333cf2;
+}
+
+
+.create_acc:hover{
+  border-color:#055bad;
+  color:#055bad;
+
+}
+
+
+.term{
+  color: #188fff;
+  text-decoration: none;
+}
+.priv{
+  color: #188fff;
+  text-decoration: none;
+}
